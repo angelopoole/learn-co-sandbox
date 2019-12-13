@@ -1,11 +1,17 @@
-student1 = "Harry Potter"
-student2 = "Ron Weasley"
-student3 = "Hermione Granger"
-student4 = "Draco Malfoy"
+def fizzbuzz(int)
+  if int % 5 == 0 && int % 3 == 0
+    puts "fizzbuzz"
+  elsif int % 5 == 0 
+    puts "fizz"
+  elsif int % 3 == 0 
+  puts "buzz" 
+else
+  puts "invalid integer"
+end
+end
 
-students = [student1, student2, student3, student4]
+fizzbuzz(15)
+fizzbuzz(5)
+fizzbuzz(3)
+fizzbuzz(1)
 
-students[0..2]
-
-# students.rm.last
-push students.rm.last
